@@ -78,4 +78,4 @@ include ~/.nano/json.nanorc
 include ~/.nano/nanorc.nanorc
 include ~/.nano/conf.nanorc
 include ~/.nano/nginx.nanorc
-include ~/.nano/python.nanorc
+include ~/.nano/python.nanorcinclude ~/.nano/r.nanorc
