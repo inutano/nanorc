@@ -1,0 +1,23 @@
+## Here is an example for R.
+##
+syntax "R" "\.R$"
+## Asciibetical list of reserved words
+color brightyellow "\<(if|else|repeat|while|function|for|in|next|break|TURE|T|FALSE|F|NULL|Inf|NaN|NA|NA_integer_|NA_real_|NA_complex_|NA_character_|\.\.\.)\>"
+## logicals
+color brightgreen "(==|<=|>=|!=|!|<|>|\||\|\||&|&&|%in%|%%|%\*%|%/%|%o%|%x%)"
+## strings
+color cyan "'[^']*'"
+color cyan ""[^"]*""
+## variable definition
+color blue "^(.[^<]+)<-"
+color yellow start="[$@%]" end="[[:alnum:]]*"
+## function definitions
+color magenta "\<([A-Za-z0-9\.]+)\>\("
+## danger!
+color black,red "(stop|warning|return)"
+color red " = "
+color yellow "[(){}[;|<>]"
+color yellow "\]"
+color brightred "<-"
+## coment highlighting
+color brightblack "#.*$"
