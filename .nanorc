@@ -39,7 +39,7 @@ set nowrap
 set softwrap
 
 # undo
-set undo
+#set undo
 
 # import syntax highlight packages
 include ~/.nano/Dockerfile.nanorc
