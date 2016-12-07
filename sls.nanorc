@@ -1,7 +1,7 @@
 ## SaltStack files (*.sls)
 ##
 
-syntax "salt" "\.sls$"
+syntax "Salt" "\.sls$"
 
 # Anything ending in a colon (:), including things that start with a dash (-)
 color blue "^[^ -].*:$"
@@ -24,3 +24,6 @@ color brightblack "^#.*"
 
 # Logic keywords
 color magenta "\<(if|elif|else|or|not|and|endif|end)\>"
+
+## Trailing spaces
+color ,green "[[:space:]]+$"
